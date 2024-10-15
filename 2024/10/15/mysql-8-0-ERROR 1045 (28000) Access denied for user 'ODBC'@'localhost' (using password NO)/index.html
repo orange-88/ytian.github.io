@@ -4,15 +4,26 @@
   <meta charset="utf-8">
   
   
-  <title>Hexo</title>
+  <title>mysql 8.0 ERROR 1045 (28000): Access denied for user &#39;ODBC&#39;@&#39;localhost&#39; (using password: NO) | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="在windows系统中，以命令行方式输入net start mysql，启动mysql后，  注意：要以管理员的身份打开终端，不然有些命令权限不足，避免麻烦，例如，如下 以管理员身份运行，  如何以管理员的身份运行？ 首先在搜索框输入cmd，然后选择 以管理员身份运行  输入mysql，提示 错误：ERROR 1045 (28000): Access denied for user ‘ODBC‘@">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mysql 8.0 ERROR 1045 (28000): Access denied for user &#39;ODBC&#39;@&#39;localhost&#39; (using password: NO)">
+<meta property="og:url" content="http://example.com/2024/10/15/mysql-8-0-ERROR%201045%20(28000)%20Access%20denied%20for%20user%20'ODBC'@'localhost'%20(using%20password%20NO)/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="在windows系统中，以命令行方式输入net start mysql，启动mysql后，  注意：要以管理员的身份打开终端，不然有些命令权限不足，避免麻烦，例如，如下 以管理员身份运行，  如何以管理员的身份运行？ 首先在搜索框输入cmd，然后选择 以管理员身份运行  输入mysql，提示 错误：ERROR 1045 (28000): Access denied for user ‘ODBC‘@">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:\Users\86186\AppData\Roaming\Typora\typora-user-images\image-20241015144041152.png">
+<meta property="og:image" content="c:\Users\86186\AppData\Roaming\Typora\typora-user-images\image-20241015150800101.png">
+<meta property="og:image" content="c:\Users\86186\AppData\Roaming\Typora\typora-user-images\image-20241015150846007.png">
+<meta property="og:image" content="c:\Users\86186\AppData\Roaming\Typora\typora-user-images\image-20241015151110552.png">
+<meta property="og:image" content="c:\Users\86186\AppData\Roaming\Typora\typora-user-images\image-20241015151848825.png">
+<meta property="og:image" content="c:\Users\86186\AppData\Roaming\Typora\typora-user-images\image-20241015144400737.png">
+<meta property="article:published_time" content="2024-10-15T06:07:19.000Z">
+<meta property="article:modified_time" content="2024-10-15T07:27:29.066Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:\Users\86186\AppData\Roaming\Typora\typora-user-images\image-20241015144041152.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -67,9 +78,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-mysql-8-0-ERROR 1045 (28000) Access denied for user &#39;ODBC&#39;@&#39;localhost&#39; (using password NO)" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-mysql-8-0-ERROR 1045 (28000) Access denied for user &#39;ODBC&#39;@&#39;localhost&#39; (using password NO)" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/10/15/mysql-8-0-ERROR%201045%20(28000)%20Access%20denied%20for%20user%20'ODBC'@'localhost'%20(using%20password%20NO)/" class="article-date">
   <time class="dt-published" datetime="2024-10-15T06:07:19.000Z" itemprop="datePublished">2024-10-15</time>
@@ -82,8 +91,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/10/15/mysql-8-0-ERROR%201045%20(28000)%20Access%20denied%20for%20user%20'ODBC'@'localhost'%20(using%20password%20NO)/">mysql 8.0 ERROR 1045 (28000): Access denied for user &#39;ODBC&#39;@&#39;localhost&#39; (using password: NO)</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      mysql 8.0 ERROR 1045 (28000): Access denied for user &#39;ODBC&#39;@&#39;localhost&#39; (using password: NO)
     </h1>
   
 
@@ -117,77 +126,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-mysql-8.0-免密码连接MySQL" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2024/10/15/mysql-8.0-%E5%85%8D%E5%AF%86%E7%A0%81%E8%BF%9E%E6%8E%A5MySQL/" class="article-date">
-  <time class="dt-published" datetime="2024-10-15T06:07:19.000Z" itemprop="datePublished">2024-10-15</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2024/10/15/mysql-8.0-%E5%85%8D%E5%AF%86%E7%A0%81%E8%BF%9E%E6%8E%A5MySQL/">mysql 8.0：本地免密码连接MySQL</a>
-    </h1>
+    <a href="/2024/10/15/mysql-8.0-%E5%85%8D%E5%AF%86%E7%A0%81%E8%BF%9E%E6%8E%A5MySQL/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">mysql 8.0：本地免密码连接MySQL</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>首先，声明一下，此教程适用于windows系统，mysql8.0版本。</p>
-<p>小白第一次写博客，表达有误的地方请谅解，欢迎在评论区交流。</p>
-<p>提示：我们可以先使用命令mysql –version(或者 mysql -V)，来查看你自己电脑上MySQL的版本信息。</p>
-<p><img src="https://s2.loli.net/2024/10/15/CREDruQcHx1J6IX.png" alt="image-20241015144400737"></p>
-<p>本地免密码连接，或称为<strong>匿名连接</strong>。在已开启MySQL的前提下，只需要输入mysql命令，就可以登录到MySQL控制台中。因此，就需要直到MySQL的运行机制，</p>
-<p>在windows环境下，MySQL的启动回去调用安装在Windows系统中的mysql服务，</p>
-<p>这个服务位置在 控制面板&#x2F;Windows 工具&#x2F;服务&#x2F;<br>首先搜索控制面板，打开<br><img src="https://s2.loli.net/2024/10/15/517kmfonyesqBLu.png" alt="image-20241015165233127"></p>
-<p>在控制面板中搜索Windows工具，双击进入Windows工具</p>
-<p><img src="https://s2.loli.net/2024/10/15/qBv7hD1xRotKIjs.png" alt="image-20241015170028506"></p>
-<p>在Windows工具中找到服务，双击进入</p>
-<p><img src="https://s2.loli.net/2024/10/15/EtMTWOyYemfKoqD.png" alt="image-20241015165519609"></p>
-<p>找到MySQL服务，右键选择属性<br><img src="https://s2.loli.net/2024/10/15/GAuPUFEsNyaH78z.png" alt="image-20241015165740511"></p>
-<p>就能看到mysql服务，最终调用的是MySQL安装路径中，bin目录里的mysqld.exe这个应用程序。</p>
-<p><img src="https://s2.loli.net/2024/10/15/swoi3HvXetqj9QZ.png" alt="image-20241015165842307"></p>
-<p>mysqld这个程序在启动时，第一时间就会去找my.ini文件，这个文件会告诉MySQL怎么做。因此我们需要配置my.ini文件，那么第一步，我们要去找到my.ini文件。</p>
-<p>但是，MySQL的安装目录里没有my.ini文件，通过全盘搜索，在这个目录下，找到了my.ini文件</p>
-<p><img src="https://s2.loli.net/2024/10/15/J7vGBDCxMw2Kl9u.png" alt="image-20241015161242467"></p>
-<p>打开笔记本进行编辑和保存，输入想要MySQL使用的登录时的用户账号和密码。</p>
-<p>注意：用户账号和密码都需要填写，否则会报老错误。</p>
-<p><img src="https://s2.loli.net/2024/10/15/xlng6SVWXtLeONv.png" alt="image-20241015161519688"></p>
-<p>然后，我们将my.ini文件剪切放到C:\Program Files\MySQL\MySQL Server 8.0目录下</p>
-<p><img src="https://s2.loli.net/2024/10/15/x2nVZLYUta4jpQo.png" alt="image-20241015161919914"></p>
-<p>以管理员身份打开cmd</p>
-<p><img src="https://s2.loli.net/2024/10/15/8PkTnhu5q46WdRo.png" alt="image-20241015162102340"></p>
-<p>输入net start mysql命令启动MySQL</p>
-<p><img src="https://s2.loli.net/2024/10/15/IS1aifUuzsDyQkg.png" alt="image-20241015162219361"></p>
-<p>输入mysql连接MySQL，看到”Welcome to the MySQL monitor.”表示成功。</p>
-<p><img src="https://s2.loli.net/2024/10/15/vwIW2jAlKpCYLOE.png" alt="image-20241015163954504"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2024/10/15/mysql-8.0-%E5%85%8D%E5%AF%86%E7%A0%81%E8%BF%9E%E6%8E%A5MySQL/" data-id="cm2acg6jx00015ov77894evdu" data-title="mysql 8.0：本地免密码连接MySQL" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
 
 
 </section>
